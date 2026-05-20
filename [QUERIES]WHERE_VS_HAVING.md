@@ -21,4 +21,4 @@ HAVING SUM(amount) > 500;
 
 Remember:</BR>
 * WHERE = filters individual rows before grouping <BR>
-* Having = filters grouped results after aggregation </BR>
+* HAVING = filters grouped results after aggregation </BR>
