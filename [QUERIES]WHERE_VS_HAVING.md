@@ -9,3 +9,12 @@ HAVING = AFTER GROUP BY</BR>
 | 3 | Chair |Office| 120 |
 | 4 | Desk|Office| 300 |
 | 5 | Keyboard |Tech| 80 |
+
+```
+SELECT
+  category,
+  SUM(amount) AS total_sales
+FROM sales
+GROUP BY category
+HAVING SUM(amount) > 500;
+```
