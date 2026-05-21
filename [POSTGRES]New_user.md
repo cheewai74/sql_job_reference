@@ -7,4 +7,4 @@ psql -U postgres</BR>
   ALTER USER dell CREATEDB;
 ```
 
-\Q
+\q
