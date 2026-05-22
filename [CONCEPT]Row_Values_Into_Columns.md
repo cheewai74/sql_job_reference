@@ -1,5 +1,5 @@
 GENERAL:</BR>
-* Only Microsoft SQL Server support PIVOT</BR>
+* Only Microsoft SQL Server and Oracle support PIVOT</BR>
 
 Microsoft SQL Server SQL Code Snippet:</BR>
 ```
