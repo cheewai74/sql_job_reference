@@ -36,7 +36,7 @@ FROM sales_mock_facebook
 GROUP BY region;
 ```
 
-SQL DATA:<\BR>
+SQL DATA:</BR>
 ```
 INSERT INTO sales_mock_facebook(sale_id, region, quater, amount)
 VALUES(1, 'North', 'Q1', 120.00);
