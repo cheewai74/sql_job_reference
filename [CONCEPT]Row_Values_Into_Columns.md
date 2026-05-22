@@ -52,7 +52,7 @@ INSERT INTO sales_mock_facebook(sale_id, region, quater, amount)
 VALUES(6, 'East', 'Q2', 160.00);
 ```
 
-POSTGRE SQL Table:</BR>
+Postgres SQL Table:</BR>
 ```
 CREATE TABLE sales_mock_facebook
 (
