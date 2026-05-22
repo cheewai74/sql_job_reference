@@ -51,3 +51,15 @@ VALUES(5, 'East', 'Q1', 200.00);
 INSERT INTO sales_mock_facebook(sale_id, region, quater, amount)
 VALUES(6, 'East', 'Q2', 160.00);
 ```
+
+POSTGRE SQL Table:</BR>
+```
+CREATE TABLE sales_mock_facebook
+(
+    sale_id integer NOT NULL,
+    region character varying(5),
+    quater character varying(2),
+    amount double precision,
+    CONSTRAINT sales_mock_facebook_pk PRIMARY KEY (sale_id)
+)
+```
