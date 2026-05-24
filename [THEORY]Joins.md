@@ -1,5 +1,5 @@
 INNER JOIN:</BR>
-_rows that have a match in the joined tables are retrieved.</BR>
+_rows that have a match in the joined tables are retrieved._</BR>
 OUTER JOIN:</BR>
 LEFT OUTER JOIN:</BR>
 RIGHT OUTER JOIN:</BR>
