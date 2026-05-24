@@ -26,10 +26,12 @@ ON staff.branchno = branch.branchno;
 </BR>
 CROSS JOIN:</BR>
 _Each possible pairing of rows from the 2 tables will result in a row appearing in the result table_</BR>
+```
+SELECT s.name, b.city
+FROM staff s
+CROSS JOIN branch b;
+```
 </BR>
-```
-```
-
 
 FULL JOIN:</BR>
 _All rows in the joined tables are included, regardless of whether there is a match or not._</BR>
