@@ -8,6 +8,7 @@ LEFT OUTER JOIN:</BR>
 _In a LEFT OUTER JOIN, all rows from the first-named table (the left table which appears leftmost in the JOIN clause) are included. Unmatched rows in the right table are ommitted._</BR>
 </BR>
 RIGHT OUTER JOIN:</BR>
+_In a RIGHT OUTER JOIN, all rows in the second-named table (the right table which appears rightmost in the JOIN clause) are included. Unmatch rows ith the left table are omitted._</BR>
 </BR>
 CROSS JOIN:</BR>
 </BR>
