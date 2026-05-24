@@ -13,6 +13,6 @@ _In a RIGHT OUTER JOIN, all rows in the second-named table (the right table whic
 CROSS JOIN:</BR>
 _Each possible pairing of rows from the 2 tables will result in a row appearing in the result table_</BR>
 </BR>
-FULL OUTER JOIN:</BR>
+FULL JOIN:</BR>
 _All rows in the joined tables are included, regardless of whether there is a match or not._</BR>
 </BR>
