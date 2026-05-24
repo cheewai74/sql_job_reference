@@ -1,9 +1,15 @@
 INNER JOIN:</BR>
 _rows that have a match in the joined tables are retrieved._</BR>
-</BR>
-OUTER JOIN:</BR>
-_An Outer Join retrieves not only rows that have a match in the joined tables, bout also unmatched rows that do not justify the join condition._</BR>
-</BR>
+```
+SELECT s.staffid,
+       s.name,
+       b.city
+FROM staff s
+INNER JOIN branch b
+ON s.branchno = b.branchno;
+```
+
+
 LEFT OUTER JOIN:</BR>
 _In a LEFT OUTER JOIN, all rows from the first-named table (the left table which appears leftmost in the JOIN clause) are included. Unmatched rows in the right table are ommitted._</BR>
 ```
