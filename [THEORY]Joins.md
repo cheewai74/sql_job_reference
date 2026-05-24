@@ -11,9 +11,7 @@ RIGHT OUTER JOIN:</BR>
 _In a RIGHT OUTER JOIN, all rows in the second-named table (the right table which appears rightmost in the JOIN clause) are included. Unmatch rows ith the left table are omitted._</BR>
 </BR>
 CROSS JOIN:</BR>
-_Each possible pairing of rows from the 2 tables will result in a row appearing in the result table </BR>
-</BR>
-SELF-JOIN:</BR>
+_Each possible pairing of rows from the 2 tables will result in a row appearing in the result table_</BR>
 </BR>
 FULL OUTER JOIN:</BR>
 _All rows in the joined tables are included, regardless of whether there is a match or not._</BR>
