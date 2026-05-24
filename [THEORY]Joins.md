@@ -12,7 +12,8 @@ FROM staff
 LEFT OUTER JOIN branch
 ON staff.branchno = branch.branchno;
 ```
-</BR>
+
+
 RIGHT OUTER JOIN:</BR>
 _In a RIGHT OUTER JOIN, all rows in the second-named table (the right table which appears rightmost in the JOIN clause) are included. Unmatch rows ith the left table are omitted._</BR>
 </BR>
@@ -22,7 +23,7 @@ FROM staff
 RIGHT OUTER JOIN branch
 ON staff.branchno = branch.branchno;
 ```
-</BR>
+
 CROSS JOIN:</BR>
 _Each possible pairing of rows from the 2 tables will result in a row appearing in the result table._</BR>
 </BR>
@@ -31,7 +32,7 @@ SELECT s.name, b.city
 FROM staff s
 CROSS JOIN branch b;
 ```
-</BR>
+
 FULL OUTER JOIN:</BR>
 _All rows in the joined tables are included, regardless of whether there is a match or not._</BR>
 </BR>
@@ -43,4 +44,4 @@ FROM staff s
 FULL OUTER JOIN branch b
 ON s.branchno = b.branchno;
 ```
-</BR>
+
