@@ -5,6 +5,7 @@ OUTER JOIN:</BR>
 _An Outer Join retrieves not only rows that have a match in the joined tables, bout also unmatched rows that do not justify the join condition._</BR>
 </BR>
 LEFT OUTER JOIN:</BR>
+_In a LEFT OUTER JOIN, all rows from the first-named table (the left table which appears leftmost in the JOIN clause) are included. Unmatched rows in the right table are ommitted._</BR>
 </BR>
 RIGHT OUTER JOIN:</BR>
 </BR>
