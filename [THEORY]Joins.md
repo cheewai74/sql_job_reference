@@ -14,3 +14,6 @@ CROSS JOIN:</BR>
 </BR>
 SELF-JOIN:</BR>
 </BR>
+FULL OUTER JOIN:</BR>
+_All rows in the joined tables are included, regardless of whether there is a match or not._</BR>
+</BR>
