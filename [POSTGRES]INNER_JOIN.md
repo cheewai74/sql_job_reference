@@ -45,7 +45,6 @@ SELECT * FROM practical_sql.employees;
 
 SELECT * FROM
 practical_sql.employees AS emp JOIN practical_sql.departments AS dept
-
 ON emp.dept_id = dept.dept_id;
 ```
 
