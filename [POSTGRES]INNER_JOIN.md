@@ -46,7 +46,7 @@ SELECT * FROM practical_sql.employees;
 SELECT * FROM
 practical_sql.employees AS emp JOIN practical_sql.departments AS dept
 
-
+ON emp.dept_id = dept.dept_id;
 ```
 
 SQL Code Example 2:
@@ -81,5 +81,3 @@ practical_sql.school_left AS scl JOIN practical_sql.school_right AS scr
 ON scl.id = scr.id;
 ```
 
-ON emp.dept_id = dept.dept_id;
-```
