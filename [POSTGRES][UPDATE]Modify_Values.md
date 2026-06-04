@@ -23,3 +23,17 @@ SET column = table_b.column
 FROM table_b
 WHERE table.column = table_b.column;
 ```
+
+```
+SELECT
+    (SELECT COUNT(*) FROM <table>) AS original,
+    (SELECT COUNT(*) FROM <table>_backup) AS backup
+
+E.g:
+SELECT 
+	(SELECT COUNT(*) FROM practical_sql.meat_poultry_egg_inspect) AS original,
+	(SELECT COUNT(*) FROM practical_sql.meat_poultry_egg_inspect_backup) AS backup
+```
+
+
+
