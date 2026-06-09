@@ -1,5 +1,7 @@
 UNION ALL combines rows from multiple row sources into one result set.</BR>
 UNION ALL will include duplicates if they exist.</BR>
+
+Example 1:</BR>
 ```
 SELECT  ename AS ename_and_dname, deptno
 FROM sql_cookbook.emp
