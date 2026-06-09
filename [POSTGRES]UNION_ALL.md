@@ -1,3 +1,4 @@
+UNION ALL combines rows from multiple row sources into one result set.</BR>
 ```
 SELECT  ename AS ename_and_dname, deptno
 FROM sql_cookbook.emp
