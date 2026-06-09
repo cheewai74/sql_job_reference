@@ -14,3 +14,11 @@ SELECT dname, deptno
 FROM 
 sql_cookbook.dept
 ```
+Example 2:</BR>
+```
+SELECT deptno
+FROM sql_cookbook.emp
+UNION ALL
+SELECT deptno
+FROM sql_cookbook.dept
+```
