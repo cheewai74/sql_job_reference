@@ -15,5 +15,8 @@ CREATE TABLE retail1.us_invoice(
 	grandTotal	USdollar
 );
 
+SELECT domain_name
+FROM information_schema.domains
+
 ```
 
