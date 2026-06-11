@@ -5,5 +5,15 @@ NOTE:</br>
 ```
 CREATE DOMAIN USdollar AS DECIMAL(10,2);
 
+CREATE TABLE retail1.us_invoice(
+	invoiceNo	INTEGER		PRIMARY KEY,
+	customerID	INTEGER,
+	salesID		INTEGER,
+	salesTotal	USdollar,
+	tax			USdollar,
+	shipping	USdollar,
+	grandTotal	USdollar
+);
+
 ```
 
