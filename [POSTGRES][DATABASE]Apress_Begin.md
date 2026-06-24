@@ -78,7 +78,7 @@ insert into apress.customer(title, fname, lname, addressline, town, zipcode, pho
 insert into apress.customer(title, fname, lname, addressline, town, zipcode, phone) values('Mr','Dave','Jones','54 Vale Rise','Bingham','BG3 8GD','342 8264');
 insert into apress.customer(title, fname, lname, addressline, town, zipcode, phone) values('Mr','Richard','Neill','42 Thatched Way','Winnersby','WB3 6GQ','505 6482');
 insert into apress.customer(title, fname, lname, addressline, town, zipcode, phone) values('Mrs','Laura','Hardy','73 Margarita Way','Oxbridge','OX2 3HX','821 2335');
-insert into apress.customer(title, fname, lname, addressline, town, zipcode, phone) values('Mr','Bill','O\'Neill','2 Beamer Street','Welltown','WT3 8GM','435 1234');
+insert into apress.customer(title, fname, lname, addressline, town, zipcode, phone) values('Mr','Bill','O\'' Neill','2 Beamer Street','Welltown','WT3 8GM','435 1234');
 insert into apress.customer(title, fname, lname, addressline, town, zipcode, phone) values('Mr','David','Hudson','4 The Square','Milltown','MT2 6RT','961 4526');
 
 -- Items
