@@ -182,4 +182,11 @@ INSERT INTO cookbook.T100 VALUES (97);
 INSERT INTO cookbook.T100 VALUES (98);
 INSERT INTO cookbook.T100 VALUES (99);
 INSERT INTO cookbook.T100 VALUES (100);
+
+CREATE TABLE cookbook.emp_bonus
+       (EMPNO integer NOT NULL,
+        RECEIVED DATE,
+        TYPE integer);
+
+insert into cookbook.emp_bonus(EMPNO, RECEIVED, TYPE) VALUES(7369,'2005-03-14',1),(7900,'2005-03-14',2),(7788,'2005-03-14',3);
 ```
