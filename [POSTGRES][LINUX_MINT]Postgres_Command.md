@@ -1,4 +1,7 @@
 ```
- sudo -u postgres psql
+sudo -u postgres psql
+\l
+\c demographics
+
 
 ```
