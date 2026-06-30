@@ -26,4 +26,11 @@ CREATE UNLOGGED TABLE professional_notes.person_unlogged(
     city VARCHAR(255),
     PRIMARY KEY (person_id));
 
+CREATE TABLE professional_notes.person_prikey(
+    person_id BIGINT NOT NULL PRIMARY KEY,
+    last_name VARCHAR(255) NOT NULL,
+    first_name VARCHAR(255),
+    address VARCHAR(255),
+    city VARCHAR(255));
+
 ```
