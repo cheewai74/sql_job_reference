@@ -33,4 +33,7 @@ CREATE TABLE professional_notes.person_prikey(
     address VARCHAR(255),
     city VARCHAR(255));
 
+CREATE TABLE professional_notes.agencies(
+    id SERIAL PRIMARY KEY,
+    NAME TEXT NOT NULL)
 ```
