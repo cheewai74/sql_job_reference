@@ -1,0 +1,10 @@
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+# Poetry/Pipenv environments
+.venv
+pip-wheel-metadata/
